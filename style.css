@@ -1,0 +1,435 @@
+@font-face{
+    font-family: "Memo";
+    src: url("FONTY/Winter\ Memo.ttf");
+}
+
+@font-face{
+    font-family: "Book";
+    src: url(FONTY/BOOKOSI.TTF);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(OBRAZY/tlo.png);
+}
+
+#main{
+    width:100%;
+    height: 800px;
+    border-top: 2px solid black;
+}
+
+#mainMP{
+    width:100%;
+    height: 1790px;
+    border-top: 2px solid black;
+}
+
+#header{
+    margin: 0 auto auto;
+    width: 1537px;
+    height: 175px;
+    background-image: url(OBRAZY/banner.png);
+    font-family: "memo";
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+#navigation{
+    margin: 0 auto auto;
+    width: 1537px;
+    height: 30px;
+    background-image: url(OBRAZY/Nav.png);
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    border-bottom: 3px solid black;
+}
+
+#content{
+    margin: 0 auto auto;
+    width: 1547px;
+    height: 650px;
+    box-sizing: border-box;
+    font-family: "Book";
+    font-size: 20px;
+    padding: 15px;
+    text-align: justify;
+    background-color: rgba(214,214,214,0.6);
+    border: 5px solid black;
+    border-top: 2px solid black;
+}
+
+#contentMP{
+    margin: 0 auto auto;
+    width: 1547px;
+    height: 1450px;
+    box-sizing: border-box;
+    font-family: "Book";
+    font-size: 20px;
+    padding: 15px;
+    text-align: justify;
+    background-color: rgba(214,214,214,0.6);
+    border: 5px solid black;
+    border-top: 2px solid black;
+}
+
+
+#textbox1{
+    margin: 0 auto;
+    width: 1510px;
+    height: 160px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    display:table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Book";
+    font-size: 22px;
+    background-color: rgba(255,255,255,0.7);
+    border: 5px solid black;
+    border-radius: 15px 15px;
+    background-repeat: no-repeat;
+    animation: float_text 1.5s ease-in-out infinite;
+}
+
+#textbox2{
+    margin: 0 auto;
+    width: 700px;
+    height: 475px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    bottom: 470px;
+    box-sizing: border-box;
+    display:table-cell;
+    text-align: justify;
+    vertical-align: middle;
+    font-family: "Book";
+    font-size: 22px;
+    background-color: rgba(255,255,255,0.7);
+    border: 5px solid black;
+    border-radius: 15px 15px;
+    background-repeat: no-repeat;
+    animation: float_text 1.5s ease-in-out infinite;
+}
+
+#textbox3{
+    margin: 0 auto;
+    width: 1510px;
+    height: 350px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    text-align: justify;
+    font-family: "Book";
+    font-size: 22px;
+    background-color: rgba(255,255,255,0.7);
+    border: 5px solid black;
+    border-radius: 15px 15px;
+    background-repeat: no-repeat;
+    animation: float_text 1.5s ease-in-out infinite;
+}
+
+.GameTitle{
+    font-family: "Memo";
+    font-size: 60px;
+    color: orange;
+    -webkit-text-stroke: 2px black;
+}
+
+.GameTextBox{
+    margin: 0 auto;
+    margin-bottom: 50px;
+    width: 1510px;
+    height: 250px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    background-color:rgba(255, 255, 255, 0.7);
+    border: 5px solid black;
+    border-radius: 15px 15px;
+}
+
+.GameTextBox2{
+    margin: 0 auto;
+    margin-bottom: 50px;
+    width: 1510px;
+    height: 290px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    background-color:rgba(255, 255, 255, 0.7);
+    border: 5px solid black;
+    border-radius: 15px 15px;
+}
+
+.GameTextBox3{
+    margin: 0 auto;
+    margin-bottom: 50px;
+    width: 1510px;
+    height: 350px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    background-color:rgba(255, 255, 255, 0.7);
+    border: 5px solid black;
+    border-radius: 15px 15px;
+}
+
+.GameTextBox:hover{
+    animation: float_text 1.5s ease-in-out infinite;
+} 
+
+.GameTextBox2:hover{
+    animation: float_text 1.5s ease-in-out infinite;
+}
+
+.GameTextBox3:hover{
+    animation: float_text 1.5s ease-in-out infinite;
+}
+
+#video{
+    width: 600px;
+    height: 308px;
+    margin: 0 auto;
+    margin-top: 15px!important;
+    background-color: white;
+    border: 3px inset greenyellow;
+ 
+}
+
+#video2{
+    width: 600px;
+    height: 458px;
+    position:relative;
+    left:800px;
+    top: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    -webkit-text-stroke: 0.2px white;
+    margin-top: 15px!important;
+
+ 
+}
+
+#footer{
+    margin: 0 auto;
+    width: 1547px;
+    height: 60px;
+    background-image: url(OBRAZY/footer.png);
+    border:5px solid black;
+    border-top: 0px;
+    box-sizing: border-box;
+    padding-top: 5px;
+    font-family: "Book";
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    text-shadow: 2px 2px rgba(255,255,255,0.5);
+}
+
+.gamehr{
+    position: relative;
+    margin-bottom: -10px;
+    bottom: 20px;
+    right: 650px;
+    width: 175px;
+}
+
+#shibeball{
+    position:relative;
+    width:325px;
+    height:183px;
+    left:1135px;
+    bottom: 197px;
+    background-color: white;
+}
+
+#shroob{
+    position:relative;
+    width:325px;
+    height:183px;
+    left:1135px;
+    bottom: 197px;
+    background-color: white;
+}
+
+#ctp{
+    position:relative;
+    width:325px;
+    height:183px;
+    left:1135px;
+    bottom: 230px;
+    background-color: white;
+}
+
+#battlerogale{
+    position:relative;
+    width:325px;
+    height:183px;
+    left:1135px;
+    bottom: 240px;
+    background-color: white;
+}
+
+#fusion25{
+    border: 3px inset greenyellow;    
+}
+
+#intro{
+    text-align: center;
+    -webkit-text-stroke: 0.5px white;
+    text-shadow: 2px 2px grey;
+    font-weight: bold;
+}
+#subintro{
+    margin-bottom: 1.5%;
+    text-align: center;
+    font-weight: bold;
+    color: #c2f7ba;
+    font-size: 22px;
+    -webkit-text-stroke: 0.2px white;
+    text-shadow: 0.5px 0.5px black;
+}
+
+a{
+    font-family: "memo";
+    font-size: 20px;
+    -webkit-text-stroke: 0.5px rgb(171, 252, 49);
+    text-shadow: 1.2px 1.2px black;
+    text-decoration: none;
+    padding-top: 5px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+a:link, a:visited {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  a:hover, a:active {
+    padding-top: 2px;
+    font-size: 22px;
+    color: rgb(251, 255, 0);
+    -webkit-text-stroke: 0.7px rgb(0, 0, 0);
+}
+} /* <- to nie jest błąd. */
+
+ol{
+    padding-top: 5px;
+}
+ol li{
+    display: inline;
+    list-style:none;
+    padding-left: 12%;
+    padding-right: 5%;
+}
+
+hr{
+    margin: 0 auto;
+    margin-top: 1%;
+    margin-bottom: 0.5%;
+    width:75%;
+    background-color: black;
+}
+
+
+.active{
+    width:325px;
+    height:183px;
+    border: 3px solid black;
+}
+
+.logo{
+    padding-top: 3%;
+    font-size: 120px;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 6px 6px #000000;
+    -webkit-text-stroke: 1px black;
+    line-height: 80px;
+}
+.title{
+    padding-left: 37%;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: left;
+    text-shadow: 3px 3px #000000;
+    -webkit-text-stroke: 1px black;
+}
+
+.rightfloat{
+    position: absolute;
+    float:right;
+    top: 750px;
+    right: 20px;
+}
+
+.leftfloat{
+    position: absolute;
+    float:left;
+    top: 750px;
+    left: 5px;
+}
+
+.rightfloat0{
+    position: sticky;
+    float:right;
+    top: 750px;
+    right: 20px;
+}
+
+.leftfloat0{
+    position: sticky;
+    float:left;
+    top: 750px;
+    left: 5px;
+}
+
+img:hover{
+    animation: jump 0.5s ease-in 
+}
+
+@keyframes jump{
+    0% {
+        top: 750px;
+    }
+    30% {
+        top: 700px;
+    }
+    50% {
+        top: 750px;
+    }
+    70% {
+        top: 740px;
+    }
+    80%{
+        top: 750px;
+    }
+}
+@keyframes float_text {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-5px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
