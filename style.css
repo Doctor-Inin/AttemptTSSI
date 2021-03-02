@@ -398,7 +398,16 @@ hr{
     left: 5px;
 }
 
-#jumping:hover{
+.rightfloat:hover{
+    animation: jump 0.5s ease-in 
+}
+.rightfloat0:hover{
+    animation: jump 0.5s ease-in 
+}
+.leftfloat:hover{
+    animation: jump 0.5s ease-in 
+}
+.leftfloat0:hover{
     animation: jump 0.5s ease-in 
 }
 
